@@ -1,0 +1,29 @@
+.item {
+  padding: 10px 15px;
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.35);
+}
+
+.item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.status {
+  margin-right: 15px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.avatar {
+  margin-right: 15px;
+  border-radius: 10px;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: 600;
+}
