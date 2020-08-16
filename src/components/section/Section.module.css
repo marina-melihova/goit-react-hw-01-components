@@ -1,11 +1,6 @@
 body {
-  counter-reset: count-task;
+  /* counter-reset: count-task; */
   padding: 15px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 .section {
@@ -24,7 +19,7 @@ body {
 }
 
 .section__title {
-  counter-increment: count-task;
+  /* counter-increment: count-task; */
   font-size: 2em;
   padding-bottom: 0.3em;
   border-bottom: 1px solid #eaecef;
@@ -34,7 +29,7 @@ body {
   line-height: 1.25;
 }
 
-.section__title:after {
+/* .section__title:after {
   content: counter(count-task);
   margin-left: 10px;
-}
+} */
